@@ -1,4 +1,4 @@
-upgradeyt
+*upgradeyt*
 Este é um projeto em Python que cria uma interface gráfica para baixar músicas do YouTube Music usando as APIs do YouTube Music e do yt-dlp.
 
 Como funciona
