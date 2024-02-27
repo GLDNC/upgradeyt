@@ -87,8 +87,8 @@ class DownloadThread(QThread):
                 subprocess.run(f'explorer /select,"{file_path}"', check=True)
         
         except Exception as e:
-            # Se ocorrer algum erro, imprimir na tela
-            print(e)
+            import traceback
+            print(traceback.format_exc() + str(e))
     
     def baixar_ffmpeg(self):
         # Verifique se o ffmpeg está presente

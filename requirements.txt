@@ -1,0 +1,6 @@
+cx_Freeze
+pyinstaller
+pyqt5
+yt_dlp
+mediafiregrabber
+ytmusicapi
